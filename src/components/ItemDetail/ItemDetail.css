@@ -1,0 +1,11 @@
+.btn-enviar{
+    cursor: pointer;
+    border:none;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.btn-enviar:hover{
+    background-color: #ffcc66;
+    color: black;
+    border: none;
+}
