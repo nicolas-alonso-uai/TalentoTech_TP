@@ -67,7 +67,7 @@
         "id":"9",
         "name":"Taladro Eléctrico",
         "price":"24000",
-        "category":"electrico",
+        "category":"electrica",
         "description":"Taladro electrico a bateria",
         "imageUrl":"/images/taladro_electrico.jpg"
     }

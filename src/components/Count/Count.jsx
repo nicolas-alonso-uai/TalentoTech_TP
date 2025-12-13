@@ -26,7 +26,8 @@ export const Count = ({ btnText, onConfirm }) => {
         <span>{count}</span>
         <button className="btn" onClick={increment}>+</button>
       </div>
-      <button className="btn btn-add" onClick={confirm} disabled={count === 0}>{btnText}</button>
+      <button className="btn btn-add" onClick={confirm} disabled={count === 0}
+      >{btnText}</button>
     </div>
   );
 };

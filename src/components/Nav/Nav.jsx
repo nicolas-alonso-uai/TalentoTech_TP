@@ -12,6 +12,12 @@ export const Nav = () => {
           <Link to={"/"}>Inicio</Link>
         </li>
         <li>
+          <Link to={"/category/manual"}>Manual</Link>
+        </li>
+        <li>
+          <Link to={"/category/electrica"}>Electrica</Link>
+        </li>
+        <li>
           <Link to={"/carrito"}>Carrito</Link>
           {getTotalItems() > 0 && (<span className="in-cart">{getTotalItems()}</span>)}
         </li>
