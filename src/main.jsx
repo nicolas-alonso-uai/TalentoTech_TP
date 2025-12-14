@@ -4,6 +4,8 @@ import './index.css'
 import App from './App.jsx'
 import { AuthProvider } from './context/AuthContext/authProvider.jsx'
 
+
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <AuthProvider>
