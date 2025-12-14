@@ -19,7 +19,7 @@ export const getProducts = async (category) => {
     let url = BASE_URL;
 
     if(category){
-        url = `${BASE_URL}?catgory=${category}`;
+        url = `${BASE_URL}?category=${category}`;
     }
 
     const res = await fetch(url);
@@ -29,4 +29,12 @@ export const getProducts = async (category) => {
 
     const results = await res.json();
     return results;
+}
+
+export const getProductById = async (id) => {
+    const res = await fetch(`${BASE_URL}/${id}`);
+    if(!res.ok){
+        throw new Error("Error al listar el producto");
+    }
+    return await res.json();
 }
