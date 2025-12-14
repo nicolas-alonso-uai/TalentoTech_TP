@@ -7,6 +7,14 @@
 
 El proyecto está enfocado a la construcción de una tienda online de una ferretería.
 
+## Funcionalidades
+
+- Mostrar todos los productos cargados en la API
+- Filtro de productos por Categorías
+- Carga de productos a un carrito, seleccionando cantidades y calculando montos
+- Alta de productos solo con permisos de ADMIN
+
 ## Detalles
 
-- Almacenamiento de los datos: [products.json](https://github.com/nicolas-alonso-uai/TalentoTech_TP/blob/593ce53adb16aded13c3c677079f9b8e992d046e/public/data/products.json)
+- Almacenamiento de los datos: [MockAPI](https://mockapi.io/)
+- Almacenamiento imágenes: [imgBB](https://imgbb.com/)
