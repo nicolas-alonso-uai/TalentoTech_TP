@@ -10,7 +10,7 @@ export const ItemListContainer = ({ titulo }) => {
 
   useEffect(() => {
     getProducts(category)
-      .then((data) => setProducts(data))
+    .then((data) => setProducts(data))
       .catch((err)=>{
         console.log(err);
       });
